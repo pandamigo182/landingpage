@@ -165,10 +165,10 @@
                                         {
                                             if(isset($mensaje))
                                             {
-                                                $para = "pandanewsv@gmail.com";
+                                                $para = "correo@gmail.com";
                                                 $asunto = "Esto es una prueba";
                                                 $cuerpo = $nombre."\n".$email."\n".$mensaje;
-                                                $adicional = "From: noreply@jacoboamaru.com";
+                                                $adicional = "From: noreply@tucorreo.com";
 
                                                 mail($para, $asunto, $cuerpo, $adicional);
                                             ?>
